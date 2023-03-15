@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230315063626">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper wrapper_brief">
+		<header class="header">
+			<div class="header__container">
+				<a href="#" class="header__logo logo">
+					<img src="img/logo.svg" alt="logo">
+				</a>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Проекты</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">FAQ</a></li>
+							<li class="menu__item"><a href="#" class="menu__link menu__link_download _icon-file-download">Скачать
+									презентацию</a></li>
+						</ul>
+						<div class="menu__cta">
+							<div class="hero__buttons">
+								<a href="#" class="button button_header">Обсудить проект</a>
+								<a href="#" class="brief-button brief-button_header">
+									<span>Заполнить бриф</span>
+								</a>
+							</div>
+							<a href="#" class="hero__showrell showrell showrell_header">
+								<span>Showreel</span>
+								<span class="showrell__icon"></span>
+							</a>
+						</div>
+					</nav>
+				</div>
+				<div class="header__actions">
+					<div data-da=".menu__body,1150,last" class="header__social social">
+						<a href="#" class="social__telegram _icon-telegram"></a>
+						<a href="#" class="social__wk _icon-wk"></a>
+						<a href="#" class="social__youtube _icon-youtube"></a>
+						<a href="#" class="social__instagram _icon-instagram"></a>
+					</div>
+					<div data-da=".menu__body,768,last" class="header__callback callback">
+						<a href="tel:+79314442044" class="callback__link _icon-phone">+7 931 444-20-44</a>
+					</div>
+					<div data-da=".menu__body,550,last" class="header__cta">
+						<a data-popup="#popup-callback" href="#" class="header__button">Связаться по ZOOM</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="stepper">
+				<div class="stepper__container">
+					<div class="stepper__inner">
+						<nav class="breadcrumps">
+							<ul class="breadcrumps__list">
+								<li class="breadcrumps__item">
+									<a href="home.html" class="breadcrumps__link">Главная</a>
+								</li>
+								<span>|</span>
+								<li class="breadcrumps__item">
+									Бриф
+								</li>
+							</ul>
+						</nav>
+						<h2 class="stepper__subtitle subtitle">Бриф для заказа</h2>
+						<form data-dev data-popup-message="#form-message" data-multi-step action="#">
+							<div data-step class="card">
+								<div class="card__title">Общее описание задачи</div>
+								<div class="card__cta">
+									<textarea placeholder="Сделать видео-презентацию с инфографикой" required name="" id="" cols="30" rows="10"></textarea>
+								</div>
+								<!-- <input required autocomplete="off" type="text" name="form[]" data-error="Ошибка" class="input"> -->
+								<div class="card__footer">
+									<div class="card__progress progress-card">
+										<div class="progress-card__text">Готово <span>0%</span> </div>
+										<div class="progress-card__line"></div>
+									</div>
+									<div class="card__actions">
+										<button data-next type="button">Следующий вопрос</button>
+									</div>
+								</div>
+							</div>
+							<div data-step class="card">
+								<div class="card__title">Как и для чего планируется использовать ролик?</div>
+								<div class="card__cta">
+									<textarea required name="message" placeholder="Клиент запускает видео-объявления в Яндекс РСЯ"></textarea>
+								</div>
+								<div class="card__footer">
+									<div class="card__progress progress-card">
+										<div class="progress-card__text">Готово <span>8%</span> </div>
+										<div class="progress-card__line progress-card__line_2"></div>
+									</div>
+									<div class="card__actions">
+										<button data-previous type="button">
+
+										</button>
+										<button data-next type="button">Следующий вопрос</button>
+									</div>
+								</div>
+							</div>
+							<div data-step class="card">
+								<div class="card__title">Рефференсы — покажите нам ролики, которые вам нравятся. Минимум 3
+									ссылки.
+								</div>
+								<div class="card__cta">
+									<textarea required name="message" placeholder="Клиент запускает видео-объявления в Яндекс РСЯ"></textarea>
+								</div>
+								<div class="card__footer">
+									<div class="card__progress progress-card">
+										<div class="progress-card__text">Готово <span>33%</span> </div>
+										<div class="progress-card__line progress-card__line_3"></div>
+									</div>
+									<div class="card__actions">
+										<button data-previous type="button">
+
+										</button>
+										<button data-next type="button">Следующий вопрос</button>
+									</div>
+								</div>
+							</div>
+							<div data-step class="card">
+								<div class="card__title">Есть ли у вас готовый сценарий ролика, или нам нужно его написать?
+								</div>
+								<div class="card__cta">
+									<div class="options">
+										<div class="options__item">
+											<input hidden id="o_1" class="options__input" checked type="radio" value="1" name="option">
+											<label for="o_1" class="options__label"><span class="options__text">Есть готовый
+													сценарий</span></label>
+										</div>
+										<div class="options__item">
+											<input hidden id="o_2" class="options__input" type="radio" value="2" name="option">
+											<label for="o_2" class="options__label"><span class="options__text">Сценария нет, нужно
+													его разработать</span></label>
+										</div>
+									</div>
+								</div>
+								<div class="card__footer">
+									<div class="card__progress progress-card">
+										<div class="progress-card__text">Готово <span>55%</span> </div>
+										<div class="progress-card__line progress-card__line_4"></div>
+									</div>
+									<div class="card__actions">
+										<button data-previous type="button">
+
+										</button>
+										<button data-next type="button">Следующий вопрос</button>
+									</div>
+								</div>
+							</div>
+							<div data-step class="card">
+								<div class="card__title">Есть ли у вас готовый сценарий ролика, или нам нужно его написать?
+								</div>
+								<div class="card__cta">
+									<div class="card__checkbox">
+										<div class="checkbox">
+											<input id="c_1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+											<label for="c_1" class="checkbox__label"><span class="checkbox__text">Видео</span></label>
+										</div>
+										<div class="checkbox">
+											<input id="c_2" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+											<label for="c_2" class="checkbox__label"><span class="checkbox__text">Анимация</span></label>
+										</div>
+										<div class="checkbox">
+											<input id="c_3" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+											<label for="c_3" class="checkbox__label"><span class="checkbox__text">3D-визуализация</span></label>
+										</div>
+										<div class="checkbox">
+											<input id="c_4" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+											<label for="c_4" class="checkbox__label"><span class="checkbox__text">Аэросъемка</span></label>
+										</div>
+										<div class="checkbox">
+											<input id="c_5" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+											<label for="c_5" class="checkbox__label"><span class="checkbox__text">Свой
+													вариант</span></label>
+										</div>
+									</div>
+								</div>
+								<div class="card__footer">
+									<div class="card__progress progress-card">
+										<div class="progress-card__text">Готово <span>90%</span> </div>
+										<div class="progress-card__line progress-card__line_5"></div>
+									</div>
+									<div class="card__actions">
+										<button data-submit type="submit">Завершить</button>
+									</div>
+								</div>
+							</div>
+							<div data-step class="card">
+								<div class="card__title">3</div>
+								<textarea name="message" placeholder="Сделать видео-презентацию с инфографикой"></textarea>
+								<div class="card__footer">
+									<div class="card__progress"></div>
+									<div class="card__actions">
+										<button type="button">submit</button>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__top">
+					<a href="#" class="footer__logo logo">
+						<img src="img/logo.svg" alt="icon:logo">
+					</a>
+					<div class="footer__content">
+						<a href="#" class="footer__address">123557, г. Москва,
+							ул. Малая Грузинская, 46,
+							цокольный этаж</a>
+						<ul class="footer__list">
+							<li class="footer__item">
+								<a href="#" class="footer__link">Тел. +7 931 444-20-44</a>
+							</li>
+							<li class="footer__item">
+								<a href="#" class="footer__link">E-mail: info@celicom.com</a>
+							</li>
+							<li class="footer__item">
+								<a href="#" class="footer__link">Telegram: @celicom_video</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__actions">
+						<a href="#" class="footer__showrell showrell">
+							<span>Showreel</span>
+							<span class="showrell__icon"></span>
+						</a>
+						<div class="footer__social social">
+							<a href="#" class="social__telegram _icon-telegram"></a>
+							<a href="#" class="social__wk _icon-wk"></a>
+							<a href="#" class="social__youtube _icon-youtube"></a>
+							<a href="#" class="social__instagram _icon-instagram"></a>
+						</div>
+					</div>
+				</div>
+				<div class="footer__bottom bottom-footer">
+					<p class="bottom-footer__info">© 2023 Celicom. Профессиональный видеопродакшн в Москве</p>
+					<div class="bottom-footer__actions">
+						<a href="#" class="terms">Пользовательское соглашение</a>
+						<a href="#" class="policy">Политика конфиденциальности</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+
+
+	<div id="popup-callback" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">
+					<img class="popup__light" src="img/icons/close.svg" alt="icon:close">
+					<img class="popup__dark" src="img/icons/close-dark.svg" alt="icon:close">
+				</button>
+				<div class="popup__header">Оставьте заявку</div>
+				<p class="popup__description">Мы вам перезвоним и подробно проконсультируем</p>
+				<form data-ajax action="files/sendmail/sendmail.php" method="POST" class="popup__form-block form-block" action="#">
+					<div class="form-block__inputs">
+						<div class="form-block__line">
+							<input data-required autocomplete="off" type="text" name="username" data-error="введите ваше имя" placeholder="Ваше имя" class="input">
+						</div>
+						<div class="form-block__line">
+							<input data-required autocomplete="off" type="tel" name="userphone" data-error="Введите номер мобильного телефона" placeholder="Номер телефона" class="input">
+						</div>
+					</div>
+					<div class="form-block__footer">
+						<button type="submit" class="button button_form">Отправить</button>
+						<p class="form-block__privacy">Отправляя свои данные вы даете согласие на их обработку в соответствии <a href="#">с политикой конфидециальности</a> </p>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230315063626"></script>
+</body>
+
+</html>
