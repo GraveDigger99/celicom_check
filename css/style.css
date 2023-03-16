@@ -1,138 +1,26 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: GilroyBlack;
+  font-family: Gilroy;
   font-display: swap;
-  src: url("../fonts/GilroyBlack.woff2") format("woff2"), url("../fonts/GilroyBlack.woff") format("woff");
+  src: url("../fonts/Gilroy.woff2") format("woff2"), url("../fonts/Gilroy.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: GilroyExtraBold;
-  font-display: swap;
-  src: url("../fonts/GilroyExtraBold.woff2") format("woff2"), url("../fonts/GilroyExtraBold.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: GilroyExtraBoldItalic;
-  font-display: swap;
-  src: url("../fonts/GilroyExtraBoldItalic.woff2") format("woff2"), url("../fonts/GilroyExtraBoldItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: GilroyBoldItalic;
-  font-display: swap;
-  src: url("../fonts/GilroyBoldItalic.woff2") format("woff2"), url("../fonts/GilroyBoldItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: GilroyHeavyItalic;
-  font-display: swap;
-  src: url("../fonts/GilroyHeavyItalic.woff2") format("woff2"), url("../fonts/GilroyHeavyItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: GilroyLight;
-  font-display: swap;
-  src: url("../fonts/GilroyLight.woff2") format("woff2"), url("../fonts/GilroyLight.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: GilroyLightItalic;
-  font-display: swap;
-  src: url("../fonts/GilroyLightItalic.woff2") format("woff2"), url("../fonts/GilroyLightItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: GilroyMedium;
+  font-family: Gilroy;
   font-display: swap;
   src: url("../fonts/GilroyMedium.woff2") format("woff2"), url("../fonts/GilroyMedium.woff") format("woff");
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: GilroyMediumItalic;
-  font-display: swap;
-  src: url("../fonts/GilroyMediumItalic.woff2") format("woff2"), url("../fonts/GilroyMediumItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: GilroyRegular;
-  font-display: swap;
-  src: url("../fonts/GilroyRegular.woff2") format("woff2"), url("../fonts/GilroyRegular.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: GilroyRegularItalic;
-  font-display: swap;
-  src: url("../fonts/GilroyRegularItalic.woff2") format("woff2"), url("../fonts/GilroyRegularItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: GilroySemiBold;
+  font-family: Gilroy;
   font-display: swap;
   src: url("../fonts/GilroySemiBold.woff2") format("woff2"), url("../fonts/GilroySemiBold.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: GilroySemiBoldItalic;
-  font-display: swap;
-  src: url("../fonts/GilroySemiBoldItalic.woff2") format("woff2"), url("../fonts/GilroySemiBoldItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: GilroyThin;
-  font-display: swap;
-  src: url("../fonts/GilroyThin.woff2") format("woff2"), url("../fonts/GilroyThin.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: GilroyThinItalic;
-  font-display: swap;
-  src: url("../fonts/GilroyThinItalic.woff2") format("woff2"), url("../fonts/GilroyThinItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: GilroyUltraLight;
-  font-display: swap;
-  src: url("../fonts/GilroyUltraLight.woff2") format("woff2"), url("../fonts/GilroyUltraLight.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: GilroyUltraLightItalic;
-  font-display: swap;
-  src: url("../fonts/GilroyUltraLightItalic.woff2") format("woff2"), url("../fonts/GilroyUltraLightItalic.woff") format("woff");
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
 }
 
@@ -145,26 +33,10 @@
 }
 
 @font-face {
-  font-family: GilroyBold;
+  font-family: Gilroy;
   font-display: swap;
   src: url("../fonts/GilroyBold.woff2") format("woff2"), url("../fonts/GilroyBold.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: GilroyBlackItalic;
-  font-display: swap;
-  src: url("../fonts/GilroyBlackItalic.woff2") format("woff2"), url("../fonts/GilroyBlackItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: GilroyHeavy;
-  font-display: swap;
-  src: url("../fonts/GilroyHeavy.woff2") format("woff2"), url("../fonts/GilroyHeavy.woff") format("woff");
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -1108,8 +980,8 @@ body::after {
 }
 
 .showrell__icon {
-  width: 50px;
-  height: 50px;
+  width: 3.125rem;
+  height: 3.125rem;
   background-color: #fff;
   -webkit-transition: all 0.5s ease 0s;
   -o-transition: all 0.5s ease 0s;
@@ -1420,6 +1292,10 @@ body::after {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   z-index: 22;
 }
 
@@ -1648,9 +1524,6 @@ body::after {
   text-decoration-line: underline;
 }
 
-.no-webp .hero{
-  background: url("../img/hero/fon_bg.png") center/cover no-repeat; }
-
 .hero {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1665,6 +1538,7 @@ body::after {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  position: relative;
 }
 
 .hero__container {
@@ -1675,9 +1549,11 @@ body::after {
 
 .hero__title {
   max-width: 56.375rem;
+  word-wrap: break-word;
 }
 
 .hero__title span {
+  word-wrap: break-word;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1749,13 +1625,22 @@ body::after {
   font-size: 1.875rem;
 }
 
+.hero__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
 .company__items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1779,10 +1664,11 @@ body::after {
 .company__text {
   line-height: 140%;
   color: #000000;
+  font-weight: 400 !important;
 }
 
 .company__text p:first-child:not(:last-child) {
-  margin-bottom: 30px;
+  margin-bottom: 1.25rem;
 }
 
 .company__quotes {
@@ -1812,6 +1698,7 @@ body::after {
   font-weight: 700;
   line-height: 140%;
   color: #fe3839;
+  display: inline-block;
 }
 
 .item-company__text {
@@ -1908,6 +1795,8 @@ body::after {
   max-width: 100%;
   width: 2rem;
   height: 2rem;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .portfolio__top {
@@ -2593,6 +2482,12 @@ body::after {
             flex: 0 1 50%;
   }
 
+  .showrell__icon::before {
+    -webkit-transform: translate(-1px, 0);
+        -ms-transform: translate(-1px, 0);
+            transform: translate(-1px, 0);
+  }
+
   .header__callback {
     margin-right: 1.5rem;
   }
@@ -2603,6 +2498,12 @@ body::after {
             flex: 0 0 8.125rem;
     height: 1.75rem;
     background: url("../img/hero/big_arrow.svg") 0 0 no-repeat;
+  }
+
+  .company__items {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 
   .item-company {
@@ -2682,6 +2583,10 @@ body::after {
     -webkit-column-gap: 4.875rem;
        -moz-column-gap: 4.875rem;
             column-gap: 4.875rem;
+  }
+
+  .company__text {
+    font-size: 1.5rem;
   }
 }
 
@@ -2862,10 +2767,6 @@ body::after {
 
   .company__body {
     row-gap: 3.125rem;
-  }
-
-  .company__text {
-    font-size: 1.5rem;
   }
 
   .company__quotes {
@@ -3083,7 +2984,10 @@ body::after {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    gap: 1.5rem;
+    -webkit-column-gap: 1.5rem;
+       -moz-column-gap: 1.5rem;
+            column-gap: 1.5rem;
+    row-gap: 0.625rem;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
@@ -3310,10 +3214,6 @@ body::after {
 
   .company__body {
     row-gap: 1.5rem;
-  }
-
-  .company__text {
-    font-size: 1rem;
   }
 
   .company__quotes {
@@ -4102,6 +4002,9 @@ body::after {
 
   .showrell__icon::before {
     font-size: 1.1875rem;
+    -webkit-transform: translate(0, 1px);
+        -ms-transform: translate(0, 1px);
+            transform: translate(0, 1px);
   }
 
   .card textarea {
@@ -4173,6 +4076,10 @@ body::after {
     display: grid;
   }
 
+  .company__text p:first-child:not(:last-child) {
+    margin-bottom: 0.9375rem;
+  }
+
   .company__quotes::before {
     width: 3.3125rem;
     height: 2rem;
@@ -4181,11 +4088,17 @@ body::after {
   }
 
   .item-company {
+    width: 100%;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 125px 1fr;
     grid-template-columns: 125px 1fr;
     gap: 3.75rem;
+    padding: 0.5rem 0;
+  }
+
+  .item-company:not(:last-child) {
+    border-bottom: 1px solid #D9D9DE;
   }
 
   .services::after {
@@ -4346,6 +4259,8 @@ body::after {
             flex: 0 0 2.5rem;
     height: 2.5rem;
     width: 2.5rem;
+    bottom: 0.625rem;
+    right: 16px;
   }
 
   .spollers-environment_title span::before,
@@ -4353,6 +4268,10 @@ body::after {
     width: 14px;
     height: 2px;
     right: 12px;
+  }
+
+  .spollers-environment__item {
+    min-height: 9.375rem;
   }
 
   .spollers-environment__item::before {
@@ -4528,6 +4447,10 @@ body::after {
 
   .hero__title span {
     gap: 0.3125rem;
+  }
+
+  .company__text {
+    font-size: 1rem;
   }
 }
 
@@ -5086,18 +5009,6 @@ body::after {
 @supports not (row-gap: clamp( 1.5rem , 1.1474576271rem  +  1.7627118644vw , 3.125rem )) {
     .company__body {
       row-gap: calc(1.5rem + 1.625 * (100vw - 20rem) / 92.1875);
-    }
-}
-
-@supports (font-size: clamp( 1rem , 0.8915254237rem  +  0.5423728814vw , 1.5rem )) {
-    .company__text {
-      font-size: clamp( 1rem , 0.8915254237rem  +  0.5423728814vw , 1.5rem );
-    }
-}
-
-@supports not (font-size: clamp( 1rem , 0.8915254237rem  +  0.5423728814vw , 1.5rem )) {
-    .company__text {
-      font-size: calc(1rem + 0.5 * (100vw - 20rem) / 92.1875);
     }
 }
 
@@ -5726,6 +5637,18 @@ body::after {
       font-size: calc(1.6875rem + 3.3125 * (100vw - 22.5rem) / 87.8125);
     }
 }
+
+@supports (font-size: clamp( 1rem , 0.871886121rem  +  0.5693950178vw , 1.5rem )) {
+    .company__text {
+      font-size: clamp( 1rem , 0.871886121rem  +  0.5693950178vw , 1.5rem );
+    }
+}
+
+@supports not (font-size: clamp( 1rem , 0.871886121rem  +  0.5693950178vw , 1.5rem )) {
+    .company__text {
+      font-size: calc(1rem + 0.5 * (100vw - 22.5rem) / 87.8125);
+    }
+}
 }
 
 @media (min-width: 93.75em) and (max-width: 110.3125em) {
@@ -5784,7 +5707,9 @@ body::after {
 
 @media (min-width: 72em) and (max-width: 112.1875em) {
   .menu__list {
-    gap: 0.625rem;
+    -webkit-column-gap: 0.625rem;
+       -moz-column-gap: 0.625rem;
+            column-gap: 0.625rem;
   }
 }
 
@@ -5980,5 +5905,3 @@ body::after {
     background-color: #fff;
   }
 }
-
-.webp .hero{ background: url(../img/hero/fon_bg.webp) center/cover no-repeat; }
